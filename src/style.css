@@ -4,6 +4,7 @@ bacba9
 e1f4cb
 f1bf98 */
 html{
+    overflow: hidden;
     /* background-color: black; */
     background-image: linear-gradient(to top, var(--color1), var(--color2) ,var(--color3));
 
@@ -137,3 +138,13 @@ html{
     background-color: var(--color1);
 }
 
+.tags{
+    display: flex;
+    justify-content: left;
+}
+
+a{
+    color: black;
+    font-size: x-large;
+    margin: 5px;
+}

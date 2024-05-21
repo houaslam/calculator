@@ -1,0 +1,139 @@
+/* 3f4739
+717568
+bacba9
+e1f4cb
+f1bf98 */
+html{
+    /* background-color: black; */
+    background-image: linear-gradient(to top, var(--color1), var(--color2) ,var(--color3));
+
+
+}
+
+:root{
+    --color1 : #c9def4;
+    --color2 : #f5ccd4;
+    --color3 : #b8a4c9;
+    --shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+}
+
+.canva{
+    /* pose */
+    margin: 10rem auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    /* size */
+    width: 400px;
+    height: 600px;
+    /* deco */
+    border-radius: 20px;
+    border: none;
+    box-shadow: var(--shadow);
+    background-image: linear-gradient(to bottom, var(--color1), var(--color2) ,var(--color3));
+}
+
+#display{
+    /* pose */
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+    /* size */
+    width: 350px;
+    height: 80px;
+    font-size: 50px;
+    text-align: right;
+    /* deco */
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 8px;
+    border: none;
+    color: #71756896;
+    size: 50px;
+    outline: none;
+
+
+
+}
+#display:focus{
+    border: none;
+}
+.numContainer{
+    /* pose */
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    /* size */
+    width: 90%;
+    /* deco */
+    row-gap: 0px;
+
+
+}
+.row{
+    /* pose */
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    /* size */
+    /* deco */
+
+
+}
+.num{
+    /* pose */
+    /* size */
+    width: 80px;
+    height: 80px;
+    /* deco */
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: #b8a4c9;
+    background-color: var(--color2);
+    /* text-shadow: var(--shadow); */
+    text-shadow: 1px 1px 1px #0000005b;
+
+}
+
+
+.num:hover{
+    background-color: #e6bdc5;
+    /* background-image: linear-gradient(to bottom,  var(--color2) , var(--color2),var(--color3)); */
+
+}
+
+.num:active{
+    background-color: #ffe3e9;
+
+}
+
+.trplbtn{
+        /* pose */
+    /* size */
+    width: 270px;
+    height: 80px;
+    /* deco */
+}
+
+.dblBtn{
+    /* pose */
+    /* size */
+    width: 175px;
+    height: 80px;
+    /* deco */
+
+}
+
+.op{
+    /* pose */
+    /* size */
+    /* deco */
+    background-color: var(--color1);
+}
+

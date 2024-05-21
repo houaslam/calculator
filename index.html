@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		 crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+	</head>
+	<body>
+		<div class="canva">
+			<div>
+				<input type="text" id="display" placeholder="0" readonly maxlength="10">
+			</div>
+			<div class="numContainer">
+				<div class="row">
+					<button onclick="clearDisplay()" class="num dblBtn">C</button>
+					<button onclick="deleteLast()" class="num"><i class="fa-solid fa-arrow-left"></i></button>
+					<button onclick="addOp('/') " class="num op">/</button>
+				</div>
+				<div class="row">
+					
+					<button onclick="addOp('7')" class="num">7</button>
+					<button onclick="addOp('8')" class="num">8</button>
+					<button onclick="addOp('9')" class="num">9</button>
+					<button onclick="addOp('*') " class="num op">x</button>
+				</div>
+				<div class="row">
+					
+					<button onclick="addOp('4')" class="num">4</button>
+					<button onclick="addOp('5')" class="num">5</button>
+					<button onclick="addOp('6')" class="num">6</button>
+					<button onclick="addOp('-') " class="num op">-</button>
+				</div>
+				<div class="row">
+					
+					<button onclick="addOp('1')" class="num">1</button>
+					<button onclick="addOp('2')" class="num">2</button>
+					<button onclick="addOp('3')" class="num">3</button>
+					<button onclick="addOp('+') " class="num op">+</button>
+				</div>
+				<div class="row">
+					
+					<button onclick="addOp('0')" class="num trplbtn">0</button>
+					<button onclick="display('=')" class="num">=</button>
+					
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

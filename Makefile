@@ -1,5 +1,5 @@
 all:
-	npx vite
+	cd src && npx vite
 
 push:
 	git  add .
